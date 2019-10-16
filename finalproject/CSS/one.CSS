@@ -1,0 +1,28 @@
+.label {
+    display:inline-block;
+    box-sizing: border-box;
+    border-width:25%;
+    bottom: 100;
+    right: 100;
+    padding-left: 30%;
+    }
+    
+#label1 , #label2 {
+    background-color: rgb(149, 243, 126);
+    width: 300px;
+    border: 15px ;
+    padding: 50px;
+    margin: 20px;
+  }
+  #label2{
+      float: right;
+  }
+
+  #label1{
+      float:left;
+  }
+
+  .jumbotron{
+      background-color: rosybrown;
+      color: darkolivegreen;
+  }

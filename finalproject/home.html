@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HTML CSS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="CSS/bootstrap_o.CSS"/>
+  <link rel="stylesheet" href="CSS/one.CSS"/>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+          $(document).ready(function(){
+            $(document.querySelector("#html")).click(function(){
+              $(document.querySelector("#html1")).toggle();                
+            });
+            $(document.querySelector("#css")).click(function(){
+              $(document.querySelector("#css1")).toggle();   
+            });
+          });
+  </script>
+
+
+
+</head>
+<body>
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#"></a>
+              
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Images.html">Images</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="Desc.html">Description</a>
+                    </li>
+                    <li class="nav-item">
+                            <a class="nav-link" href="FC.html">Flash Cards</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="carousel.html">Carousel</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="Tables.html">Tables</a>
+                          </li>
+                  </ul>
+                </div>
+              </nav>
+
+
+
+
+      <div class="jumbotron text-center">
+            <h1>HTML CSS</h1>
+      </div>
+      <div class="label">
+      
+      <div id="label1">
+      <h3> Learn Html</h3>
+        <button id="html">Description</button>
+                       <div id="html1">HTML stands for Hyper Text Markup Language
+                                      HTML is the standard markup language for Web pages.</div>
+                      </div>
+
+        <div id="label2">
+        <h3>Learn CSS</h3>
+        <button id="css">Description</button>
+                       <div id="css1">CSS describes how HTML elements are to be displayed</div>
+                      </div>
+
+      </div>
+</body>
