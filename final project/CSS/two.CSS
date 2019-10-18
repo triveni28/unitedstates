@@ -1,0 +1,21 @@
+body{
+    background-image: url(../Images/bg.jpg);
+}
+h1{
+    text-align: center;
+    color: violet;
+    padding-top: 1%;
+}
+.carousel {
+    width: 400px;
+    margin: auto;
+    padding-top: 1%;
+}
+
+.carousel-inner img{
+    width: 100%;
+}
+
+nav a:hover{
+    border-bottom:2px solid white;
+}
